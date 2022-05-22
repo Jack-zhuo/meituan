@@ -1,13 +1,11 @@
 <template>
- <div>
-   <van-button type="primary">按钮</van-button>
- </div>
+  <router-view></router-view>
 </template>
 
 <script>
+
 export default {
   name: 'App',
-
 }
 </script>
 
